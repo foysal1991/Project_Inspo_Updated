@@ -1,0 +1,488 @@
+/*Global CSS*/
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.row{ width: 100%; }
+
+.col-1{
+    width: 8.33%;
+    float:left;
+}
+
+.col-2{
+    width: 16.67%;
+    float:left;
+}
+
+.col-3{
+    width: 25%;
+    float:left;
+}
+
+.col-4{
+    width: 33.33%; 
+    float:left;
+}
+
+.col-5{
+    width:41.65%; 
+    float:left;
+}
+
+.col-6{
+    width: 50%; 
+    float:left;
+}
+
+.col-7{
+    width: 58.33%;
+    float:left;
+}
+
+.col-8{
+    width: 66.67%;
+    float:left;
+}
+
+.col-9{
+    width: 75%;
+    float:left;
+}
+
+.col-10{
+    width: 83.33%;
+    float:left;
+}
+
+.col-11{
+    width: 91.67%;
+    float:left;
+}
+
+.col-12{
+    width: 100%; 
+    float:left;
+}
+
+section{
+    float: left;
+    width: 100%;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+/* Header Section CSS */
+
+header{
+    background: url(../images/banner1.png);
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+}
+
+header .nav-bar{
+    margin-top: 20px;
+}
+
+header .nav-bar .logo{
+    width: 7%;
+    float: left;
+}
+
+header .nav-bar .logo img{}
+
+header .nav-bar .menu{
+    width: 93%;
+    float: left;
+}
+
+header .nav-bar .menu ul{
+    padding-left: 0;
+    float: right;
+    margin-top: 15px;
+}
+
+header .nav-bar .menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+header .nav-bar .menu ul li a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-bottom: 2px solid transparent;
+}
+
+header .nav-bar .menu ul li:last-child a{
+    border-bottom: none;
+}
+
+header .nav-bar .menu ul li a:hover{
+    border-bottom: 2px solid;
+    transition: 0.4s linear;
+}
+
+header .nav-bar .menu ul li:last-child a:hover{
+    border-bottom: none;
+    color: black;
+}
+
+header .nav-bar .menu .btn-login{
+    color: #294af1;
+    background: #fff;
+    border-radius: 20px;
+}
+
+header .hero-area{
+    text-align: center;
+    margin-top: 120px;
+    color: #fff;
+}
+
+header .hero-area h1{
+    font-size: 50px;
+    padding: 0 20%;
+    margin-bottom: 100px;
+    line-height: 1.4;
+}
+
+header .hero-area .btn-cta{
+    text-decoration: none;
+    background: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+header .hero-area .btn-cta:hover{
+    background:yellow;
+}
+
+/*About-us CSS Staated*/
+
+.about-us{
+    background:#f6f9f9;
+
+}
+
+.about-us .content{
+    margin-top: 140px;
+    margin-right: 80px;
+}
+
+.about-us .content h6{
+        text-align: right;
+        color: #9f9f9f;
+        font-size: 14px;
+        margin-bottom: 10px;
+}
+
+.about-us .content h2{
+    text-align: right;
+    font-size: 42px;
+    padding-left: 35%;
+    margin-bottom: 50px;
+}
+
+.about-us .content .inner-content{
+    text-align: right;
+    padding: 0 9px;
+    margin-bottom: 30px;
+}
+
+.about-us .content .inner-content h4{
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
+
+.about-us .content .inner-content p{
+    font-size: 14px;
+    line-height: 1.7;
+    padding-left: 28%;
+    color: #505457;
+}
+
+.about-us .content img{
+    float: right;
+}
+
+
+/*Features Section CSS*/
+
+.features{
+    background: #faf8f5;
+    height: 600px;
+}
+
+.features .features-list{
+    padding: 50;
+    padding: 15% 30%;
+}
+
+.features .features-list ul{
+    padding-left: 0;
+}
+
+.features .features-list ul li{
+    width: 30;
+    list-style: none;
+    background: #ffffff;
+    margin-bottom: 15px;
+    color: #9f9f9f;
+    font-size: 16px;
+    padding: 10% 0;
+}
+
+
+.features .features-list ul li span{
+    float: left;
+    padding: 0 10%;
+}
+
+.features .features-list ul li:hover span{
+    color: #fc6221;
+    transition: 0.5s linear;
+
+}
+
+.features .features-list ul li p{
+
+}
+
+.features .features-list ul li:hover p{
+    color: #294af1;
+    transition: 0.5s linear;
+
+}
+
+.features .do{
+    padding: 2;
+    padding: 25% 0;
+}
+
+.features .do h6{
+    color: #9f9f9f;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.features .do h2{
+    margin-bottom: 20px;
+    font-size: 42px;
+    line-height: 1.5;
+    padding-right: 29%;
+}
+
+.features .do p{
+    color: #505457;
+    line-height: 1.7;
+    font-size: 16px;
+    padding-right: 20%;
+    text-align: left;
+}
+
+
+/*Service Section CSS Started*/
+
+.service{
+    background: #f6f9f9;
+    padding: 5% 0px;
+}
+
+.service h2{
+    text-align: center;
+    font-size: 42px;
+    padding: 0 30%;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.service .offering-p{
+    color: #9f9f9f;
+    font-size: 14;
+    font-size: 16px;
+    padding: 0 29%;
+    margin-bottom: 80px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+
+.service .box{
+    padding: 0px 20%;
+    margin-bottom: 50px;
+}
+
+.service .box img{}
+
+.service .box h3{
+    font-size: 4;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.service .box p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #505457;
+}
+
+
+/*Thinking Section CSS Started*/
+
+.thinking{
+    background: url(../images/banner1.png);
+    background-position: center;
+    background-size: cover;
+    padding: 7% 0%;
+}
+
+.thinking .text-area{
+    text-align: center;
+    color: #fff;
+}
+
+.thinking .text-area h2{
+    font-size: 42px;
+    line-height: 1.5;
+}
+
+.thinking .text-area p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+    padding: 0 21%;
+}
+
+.thinking .text-area .btn-cta{
+    text-decoration: none;
+    padding: 15px 40px;
+    color: black;
+    background: #fff;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.thinking .text-area .btn-cta:hover{
+    color: #4856f3;
+    border-radius: 50px;
+    transition: 0.4s linear;
+}
+
+.thinking .text-area .btn-take{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 40px;
+    display: inline-block;
+}
+
+
+
+/*Clint Section Started*/
+
+.clint{
+    padding: 7% 0%;
+}
+
+.clint .sticar{
+    padding: 0 5%;
+    display: inline-block;
+}
+
+.clint .sticar img{
+    padding: 4% 0%;
+}
+
+.clint .text-area{
+    padding: 13% 0px;
+}
+
+.clint .text-area h6{
+    font-size: 16px;
+    color: #9f9f9f;
+    margin-bottom: 10px;
+}
+
+.clint .text-area h2{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.clint .text-area p{
+    font-size: 16px;
+    color: #505457;
+    line-height: 1.7;
+    text-align: left;
+    padding-right: 25%;
+}
+
+
+/*Footer Section CSS Started*/
+
+.footer{
+    background: url(../images/footer-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 5% 0;
+}
+
+.footer .bottom-inspo{
+    
+}
+
+.footer .bottom-inspo img{}
+
+.footer .bottom-inspo p{
+    margin-top: 25px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.7;
+    padding-right: 25%;
+}
+
+.footer .bottom-link{
+
+} 
+
+.footer .bottom-link ul{
+    padding-left: 0;
+}
+
+.footer .bottom-link ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.footer .bottom-link ul li h6{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.footer .bottom-link ul li a{
+    text-decoration: none;
+    color: #fff;
+}
